@@ -16,9 +16,11 @@ It does not implement finger tables and finger-based routing and does not handle
 
 For the query and delete requests, two special strings for the selection parameter are recognized:
 
-1. "*" - query: returns all the <key, value> pairs stored in the entire DHT.
-       - delete: deletes all the <key, value> pairs stored in the entire DHT.
+1. "*" 
+   - query: returns all the <key, value> pairs stored in the entire DHT.
+   - delete: deletes all the <key, value> pairs stored in the entire DHT.
 
-2. "@" - query: returns all the <key, value> pairs stored in the local partition of the node (that receives this "@" query).
-       - delete: deletes all the <key, value> pairs stored in the local partition of the node (that receives this "@" delete).
+2. "@" 
+   - query: returns all the <key, value> pairs stored in the local partition of the node (that receives this "@" query).
+   - delete: deletes all the <key, value> pairs stored in the local partition of the node (that receives this "@" delete).
 
